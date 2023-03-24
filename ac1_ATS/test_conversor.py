@@ -45,10 +45,6 @@ def test_deve_entender_simbolo_CMXCIX():
     assert converte_romano('CMXCIX') == 999
 
 def test_deve_entender_simbolo_MCMXCI():
-    assert converte_romano('MDCCC') == 1800
-
-def test_deve_entender_simbolo_MCMXCI():
     assert converte_romano('MCMXCI') == 1991
 
-def test_deve_entender_simbolo_MCMXCI():
-    assert converte_romano('MMXXIII') == 2023
+

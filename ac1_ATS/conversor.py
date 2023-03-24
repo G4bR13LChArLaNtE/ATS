@@ -2,7 +2,6 @@
 # RA: 2101478 Turma: SI
 
 
-
 def converte_romano(simbolo):
     dicionario = {
         'I': 1,
@@ -13,14 +12,9 @@ def converte_romano(simbolo):
         'D': 500,
         'M': 1000
     }
-    
-    
-    
-    
+
     valor = 0
-    
-    
-    
+
     for i in range(len(simbolo)):
         if i > 0 and dicionario[simbolo[i]] > dicionario[simbolo[i-1]]:
             valor += dicionario[simbolo[i]] - 2 * dicionario[simbolo[i-1]]
